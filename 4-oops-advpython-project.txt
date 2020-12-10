@@ -1,0 +1,40 @@
+3. Goal: Object Oriented Programming + Modules (creating a .whl file)
+Description:
+
+To create a self usable module (library) and should be installable.
+Not a script library.
+
+Create a project for :
+:: (No Gear + left + right gear) bike and (No Gear + Gear) cycle rental system.
+- You should able to rent the vehicle
+- Cost will paid per day
+- Each category will have different different costs
+- Two groups Bike, Cycle
+- Should not be a script
+- File should be stored in the location/folder of main.py
+- If file not present then create the file and make entry
+- You will use
+    - Classes, Functions,
+    - globals (if needed, try to avoid),
+    - Group, Type of vehicle (Tuples)
+    - File io
+    - modules (with __init__)
+    - create a .whl file
+- In your imported lib.whl code:
+- You should be able to used following functions:
+    - Selecting a vehicle
+    - Selecting a date range of rental
+    - Confirm Renting
+    - Confirm Return
+- No other functions should be allowed to be accessed normally
+    - (following the rules of privacy)
+- The implementation of usage of above .whl file needs to be there
+- main.py < (install and )import lib.whl
+- main.py file will take input from customer/user:
+    - What you want to do:
+        - Rent
+            - type of vehicle
+            - date range (start and end)
+            - Confirm with Y/N (Store with file in each line)
+        - Return
+            - Confirm with Y/N (Remove first found entry from the file)
